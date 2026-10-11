@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-node-gateway",
+  "version": "1.0.0",
+  "description": "Node.js Express API Gateway for Anushka's Personal Portfolio Website",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "api-gateway",
+    "portfolio",
+    "react",
+    "django"
+  ],
+  "author": "Anushka",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
